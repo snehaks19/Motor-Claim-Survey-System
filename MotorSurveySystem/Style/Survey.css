@@ -1,0 +1,92 @@
+﻿body {
+    font-family: Arial, sans-serif;
+    background-color: #f8f9fa;
+}
+
+
+.heads h3 {
+    text-align:center;
+   /* margin: 20px 0;*/
+    color: navy;
+    font-weight: bold;
+}
+
+label {
+    font-weight: 600;
+    color: #495057;
+}
+
+.form-control {
+    border-radius: 5px;
+    padding: 10px;
+    font-size: 15px;
+}
+
+    .form-control:focus {
+        border-color: #198754;
+        box-shadow: 0 0 5px rgba(25, 135, 84, 0.5);
+    }
+
+.btn-primary, .btn-success {
+    margin: 10px;
+    padding: 10px 20px;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.btn-primary {
+    background-color: navy;
+    border-color: #007bff;
+}
+
+.btn-success {
+    background-color: navy;
+    border-color: #198754;
+}
+
+    .btn-primary:hover, .btn-success:hover {
+        background-color: #002244;
+        opacity: 0.9;
+    }
+
+.vehval, .fc, .lc {
+    text-align: right;
+}
+
+.text-danger {
+    font-size: 13px;
+    color: #dc3545;
+}
+.back{
+    float:left;
+    
+}
+
+.date-picker {
+    background-image: url('../Images/calendar-icon.png');
+    background-position: right 10px center;
+    background-repeat: no-repeat;
+    background-size: 20px;
+}
+
+.dropdown {
+    width: 100%;
+}
+
+@media (max-width: 768px) {
+    .btn-primary, .btn-success {
+        width: 100%;
+        margin: 5px 0;
+    }
+}
+
+
+.approve{
+    text-align:center;
+}
+
+.required {
+    color: red;
+    margin-left: 5px;
+    font-weight: bold;
+}

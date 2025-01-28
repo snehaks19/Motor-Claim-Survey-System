@@ -1,0 +1,71 @@
+﻿/* Grid styling */
+.table {
+    border-collapse: collapse; /* Combines borders neatly */
+    width: 100%; /* Full width within the container */
+    margin: 0 auto; /* Center the table within the container */
+    border-radius: 10px; /* Rounded corners for the table */
+    overflow: hidden; /* Ensure child elements respect border radius */
+    border: 2px solid #b0c4de; /* Light steel blue border for the entire table */
+}
+
+    /* Header styling */
+    .table th {
+        background-color: #a8d8ea; /* Light blue for header */
+        color: #003366; /* Dark navy text for contrast */
+        border: 1px solid #b0c4de; /* Light steel blue border for header cells */
+        padding: 10px; /* Padding for header cells */
+    }
+
+    /* Cell styling */
+    .table td {
+        background-color: #f4f8fb; /* Light blue background for table cells */
+        color: #00264d; /* Dark navy blue text */
+        border: 1px solid #b0c4de; /* Light steel blue border for cells */
+        padding: 10px; /* Padding for table cells */
+    }
+
+/* Centering the grid container */
+.table-container {
+    width: 90%; /* Adjust width as desired */
+    margin: 0 auto; /* Centers the container horizontally */
+}
+
+    .table-container h3 {
+        text-align: center;
+        margin-top: 20px;
+        font-weight: bold;
+        color: #003366;
+    }
+/* Striped rows */
+.table-striped tbody tr:nth-of-type(odd) {
+    background-color: #e8f0fa; /* Very light blue for odd rows */
+}
+
+.table-striped tbody tr:nth-of-type(even) {
+    background-color: #f4f8fb; /* Slightly different light blue for even rows */
+}
+
+/* Hover effect for rows */
+.table-striped tbody tr:hover {
+    background-color: #d0e6f5; /* Medium light blue on hover */
+}
+
+.btn-success {
+    float: right;
+    margin: 10px;
+    background-color: #003366; /* Navy background for the buttons */
+    color: #ffffff; /* White text color for contrast */
+    border: none; /* Remove default border */
+    padding: 10px 20px; /* Padding for better appearance */
+    text-align: center; /* Center text */
+    text-decoration: none; /* No underline */
+    display: inline-block; /* Ensure proper display */
+    font-size: 16px; /* Font size */
+    border-radius: 5px; /* Rounded corners */
+    transition: background-color 0.3s; /* Smooth transition on hover */
+}
+
+    /* Button hover effect */
+    .btn-success:hover {
+        background-color: #002244; /* Darker navy on hover */
+    }

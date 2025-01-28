@@ -1,0 +1,72 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="DataSet1" targetNamespace="http://tempuri.org/DataSet1.xsd" xmlns:mstns="http://tempuri.org/DataSet1.xsd" xmlns="http://tempuri.org/DataSet1.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections />
+        <Tables />
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="DataSet1" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:EnableTableAdapterManager="true" msprop:Generator_DataSetName="DataSet1" msprop:Generator_UserDSName="DataSet1">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="MOTOR_POLICY" msprop:Generator_TableClassName="MOTOR_POLICYDataTable" msprop:Generator_TableVarName="tableMOTOR_POLICY" msprop:Generator_TablePropName="MOTOR_POLICY" msprop:Generator_RowDeletingName="MOTOR_POLICYRowDeleting" msprop:Generator_RowChangingName="MOTOR_POLICYRowChanging" msprop:Generator_RowEvHandlerName="MOTOR_POLICYRowChangeEventHandler" msprop:Generator_RowDeletedName="MOTOR_POLICYRowDeleted" msprop:Generator_UserTableName="MOTOR_POLICY" msprop:Generator_RowChangedName="MOTOR_POLICYRowChanged" msprop:Generator_RowEvArgName="MOTOR_POLICYRowChangeEvent" msprop:Generator_RowClassName="MOTOR_POLICYRow">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="POL_NO" msprop:Generator_ColumnVarNameInTable="columnPOL_NO" msprop:Generator_ColumnPropNameInRow="POL_NO" msprop:Generator_ColumnPropNameInTable="POL_NOColumn" msprop:Generator_UserColumnName="POL_NO" type="xs:string" minOccurs="0" />
+              <xs:element name="POL_ISS_DT" msprop:Generator_ColumnVarNameInTable="columnPOL_ISS_DT" msprop:Generator_ColumnPropNameInRow="POL_ISS_DT" msprop:Generator_ColumnPropNameInTable="POL_ISS_DTColumn" msprop:Generator_UserColumnName="POL_ISS_DT" type="xs:string" minOccurs="0" />
+              <xs:element name="POL_FM_DT" msprop:Generator_ColumnVarNameInTable="columnPOL_FM_DT" msprop:Generator_ColumnPropNameInRow="POL_FM_DT" msprop:Generator_ColumnPropNameInTable="POL_FM_DTColumn" msprop:Generator_UserColumnName="POL_FM_DT" type="xs:string" minOccurs="0" />
+              <xs:element name="POL_TO_DT" msprop:Generator_ColumnVarNameInTable="columnPOL_TO_DT" msprop:Generator_ColumnPropNameInRow="POL_TO_DT" msprop:Generator_ColumnPropNameInTable="POL_TO_DTColumn" msprop:Generator_UserColumnName="POL_TO_DT" type="xs:string" minOccurs="0" />
+              <xs:element name="POL_ASSR_NAME" msprop:Generator_ColumnVarNameInTable="columnPOL_ASSR_NAME" msprop:Generator_ColumnPropNameInRow="POL_ASSR_NAME" msprop:Generator_ColumnPropNameInTable="POL_ASSR_NAMEColumn" msprop:Generator_UserColumnName="POL_ASSR_NAME" type="xs:string" minOccurs="0" />
+              <xs:element name="POL_ASSR_MOBILE" msprop:Generator_ColumnVarNameInTable="columnPOL_ASSR_MOBILE" msprop:Generator_ColumnPropNameInRow="POL_ASSR_MOBILE" msprop:Generator_ColumnPropNameInTable="POL_ASSR_MOBILEColumn" msprop:Generator_UserColumnName="POL_ASSR_MOBILE" type="xs:string" minOccurs="0" />
+              <xs:element name="POL_GROSS_FC_PREM" msprop:Generator_ColumnVarNameInTable="columnPOL_GROSS_FC_PREM" msprop:Generator_ColumnPropNameInRow="POL_GROSS_FC_PREM" msprop:Generator_ColumnPropNameInTable="POL_GROSS_FC_PREMColumn" msprop:Generator_UserColumnName="POL_GROSS_FC_PREM" type="xs:decimal" minOccurs="0" />
+              <xs:element name="POL_GROSS_LC_PREM" msprop:Generator_ColumnVarNameInTable="columnPOL_GROSS_LC_PREM" msprop:Generator_ColumnPropNameInRow="POL_GROSS_LC_PREM" msprop:Generator_ColumnPropNameInTable="POL_GROSS_LC_PREMColumn" msprop:Generator_UserColumnName="POL_GROSS_LC_PREM" type="xs:string" minOccurs="0" />
+              <xs:element name="POL_VEH_MAKE" msprop:Generator_ColumnVarNameInTable="columnPOL_VEH_MAKE" msprop:Generator_ColumnPropNameInRow="POL_VEH_MAKE" msprop:Generator_ColumnPropNameInTable="POL_VEH_MAKEColumn" msprop:Generator_UserColumnName="POL_VEH_MAKE" type="xs:string" minOccurs="0" />
+              <xs:element name="POL_VEH_MODEL" msprop:Generator_ColumnVarNameInTable="columnPOL_VEH_MODEL" msprop:Generator_ColumnPropNameInRow="POL_VEH_MODEL" msprop:Generator_ColumnPropNameInTable="POL_VEH_MODELColumn" msprop:Generator_UserColumnName="POL_VEH_MODEL" type="xs:string" minOccurs="0" />
+              <xs:element name="POL_VEH_CHASSIS_NO" msprop:Generator_ColumnVarNameInTable="columnPOL_VEH_CHASSIS_NO" msprop:Generator_ColumnPropNameInRow="POL_VEH_CHASSIS_NO" msprop:Generator_ColumnPropNameInTable="POL_VEH_CHASSIS_NOColumn" msprop:Generator_UserColumnName="POL_VEH_CHASSIS_NO" type="xs:string" minOccurs="0" />
+              <xs:element name="POL_VEH_ENGINE_NO" msprop:Generator_ColumnVarNameInTable="columnPOL_VEH_ENGINE_NO" msprop:Generator_ColumnPropNameInRow="POL_VEH_ENGINE_NO" msprop:Generator_ColumnPropNameInTable="POL_VEH_ENGINE_NOColumn" msprop:Generator_UserColumnName="POL_VEH_ENGINE_NO" type="xs:string" minOccurs="0" />
+              <xs:element name="POL_VEH_REGN_NO" msprop:Generator_ColumnVarNameInTable="columnPOL_VEH_REGN_NO" msprop:Generator_ColumnPropNameInRow="POL_VEH_REGN_NO" msprop:Generator_ColumnPropNameInTable="POL_VEH_REGN_NOColumn" msprop:Generator_UserColumnName="POL_VEH_REGN_NO" type="xs:string" minOccurs="0" />
+              <xs:element name="POL_VEH_VALUE" msprop:Generator_ColumnVarNameInTable="columnPOL_VEH_VALUE" msprop:Generator_ColumnPropNameInRow="POL_VEH_VALUE" msprop:Generator_ColumnPropNameInTable="POL_VEH_VALUEColumn" msprop:Generator_UserColumnName="POL_VEH_VALUE" type="xs:decimal" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="MOTOR_CLM_SUR_HDR" msprop:Generator_TableClassName="MOTOR_CLM_SUR_HDRDataTable" msprop:Generator_TableVarName="tableMOTOR_CLM_SUR_HDR" msprop:Generator_RowChangedName="MOTOR_CLM_SUR_HDRRowChanged" msprop:Generator_TablePropName="MOTOR_CLM_SUR_HDR" msprop:Generator_RowDeletingName="MOTOR_CLM_SUR_HDRRowDeleting" msprop:Generator_RowChangingName="MOTOR_CLM_SUR_HDRRowChanging" msprop:Generator_RowEvHandlerName="MOTOR_CLM_SUR_HDRRowChangeEventHandler" msprop:Generator_RowDeletedName="MOTOR_CLM_SUR_HDRRowDeleted" msprop:Generator_RowClassName="MOTOR_CLM_SUR_HDRRow" msprop:Generator_UserTableName="MOTOR_CLM_SUR_HDR" msprop:Generator_RowEvArgName="MOTOR_CLM_SUR_HDRRowChangeEvent">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="SUR_NO" msprop:Generator_ColumnVarNameInTable="columnSUR_NO" msprop:Generator_ColumnPropNameInRow="SUR_NO" msprop:Generator_ColumnPropNameInTable="SUR_NOColumn" msprop:Generator_UserColumnName="SUR_NO" type="xs:string" minOccurs="0" />
+              <xs:element name="SUR_DATE" msprop:Generator_ColumnVarNameInTable="columnSUR_DATE" msprop:Generator_ColumnPropNameInRow="SUR_DATE" msprop:Generator_ColumnPropNameInTable="SUR_DATEColumn" msprop:Generator_UserColumnName="SUR_DATE" type="xs:string" minOccurs="0" />
+              <xs:element name="SUR_CURR" msprop:Generator_ColumnVarNameInTable="columnSUR_CURR" msprop:Generator_ColumnPropNameInRow="SUR_CURR" msprop:Generator_ColumnPropNameInTable="SUR_CURRColumn" msprop:Generator_UserColumnName="SUR_CURR" type="xs:string" minOccurs="0" />
+              <xs:element name="SUR_FC_AMT" msprop:Generator_ColumnVarNameInTable="columnSUR_FC_AMT" msprop:Generator_ColumnPropNameInRow="SUR_FC_AMT" msprop:Generator_ColumnPropNameInTable="SUR_FC_AMTColumn" msprop:Generator_UserColumnName="SUR_FC_AMT" type="xs:decimal" minOccurs="0" />
+              <xs:element name="SUR_LC_AMT" msprop:Generator_ColumnVarNameInTable="columnSUR_LC_AMT" msprop:Generator_ColumnPropNameInRow="SUR_LC_AMT" msprop:Generator_ColumnPropNameInTable="SUR_LC_AMTColumn" msprop:Generator_UserColumnName="SUR_LC_AMT" type="xs:decimal" minOccurs="0" />
+              <xs:element name="SUR_LOCATION" msprop:Generator_ColumnVarNameInTable="columnSUR_LOCATION" msprop:Generator_ColumnPropNameInRow="SUR_LOCATION" msprop:Generator_ColumnPropNameInTable="SUR_LOCATIONColumn" msprop:Generator_UserColumnName="SUR_LOCATION" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="MOTOR_CLM_SUR_DTL" msprop:Generator_TableClassName="MOTOR_CLM_SUR_DTLDataTable" msprop:Generator_TableVarName="tableMOTOR_CLM_SUR_DTL" msprop:Generator_RowChangedName="MOTOR_CLM_SUR_DTLRowChanged" msprop:Generator_TablePropName="MOTOR_CLM_SUR_DTL" msprop:Generator_RowDeletingName="MOTOR_CLM_SUR_DTLRowDeleting" msprop:Generator_RowChangingName="MOTOR_CLM_SUR_DTLRowChanging" msprop:Generator_RowEvHandlerName="MOTOR_CLM_SUR_DTLRowChangeEventHandler" msprop:Generator_RowDeletedName="MOTOR_CLM_SUR_DTLRowDeleted" msprop:Generator_RowClassName="MOTOR_CLM_SUR_DTLRow" msprop:Generator_UserTableName="MOTOR_CLM_SUR_DTL" msprop:Generator_RowEvArgName="MOTOR_CLM_SUR_DTLRowChangeEvent">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="SURD_ITEM_CODE" msprop:Generator_ColumnVarNameInTable="columnSURD_ITEM_CODE" msprop:Generator_ColumnPropNameInRow="SURD_ITEM_CODE" msprop:Generator_ColumnPropNameInTable="SURD_ITEM_CODEColumn" msprop:Generator_UserColumnName="SURD_ITEM_CODE" type="xs:string" minOccurs="0" />
+              <xs:element name="SURD_TYPE" msprop:Generator_ColumnVarNameInTable="columnSURD_TYPE" msprop:Generator_ColumnPropNameInRow="SURD_TYPE" msprop:Generator_ColumnPropNameInTable="SURD_TYPEColumn" msprop:Generator_UserColumnName="SURD_TYPE" type="xs:string" minOccurs="0" />
+              <xs:element name="SURD_UNIT_PRICE" msprop:Generator_ColumnVarNameInTable="columnSURD_UNIT_PRICE" msprop:Generator_ColumnPropNameInRow="SURD_UNIT_PRICE" msprop:Generator_ColumnPropNameInTable="SURD_UNIT_PRICEColumn" msprop:Generator_UserColumnName="SURD_UNIT_PRICE" type="xs:decimal" minOccurs="0" />
+              <xs:element name="SURD_FC_AMT" msprop:Generator_ColumnVarNameInTable="columnSURD_FC_AMT" msprop:Generator_ColumnPropNameInRow="SURD_FC_AMT" msprop:Generator_ColumnPropNameInTable="SURD_FC_AMTColumn" msprop:Generator_UserColumnName="SURD_FC_AMT" type="xs:decimal" minOccurs="0" />
+              <xs:element name="SURD_LC_AMT" msprop:Generator_ColumnVarNameInTable="columnSURD_LC_AMT" msprop:Generator_ColumnPropNameInRow="SURD_LC_AMT" msprop:Generator_ColumnPropNameInTable="SURD_LC_AMTColumn" msprop:Generator_UserColumnName="SURD_LC_AMT" type="xs:decimal" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="MOTOR_CLAIM" msprop:Generator_TableClassName="MOTOR_CLAIMDataTable" msprop:Generator_TableVarName="tableMOTOR_CLAIM" msprop:Generator_RowChangedName="MOTOR_CLAIMRowChanged" msprop:Generator_TablePropName="MOTOR_CLAIM" msprop:Generator_RowDeletingName="MOTOR_CLAIMRowDeleting" msprop:Generator_RowChangingName="MOTOR_CLAIMRowChanging" msprop:Generator_RowEvHandlerName="MOTOR_CLAIMRowChangeEventHandler" msprop:Generator_RowDeletedName="MOTOR_CLAIMRowDeleted" msprop:Generator_RowClassName="MOTOR_CLAIMRow" msprop:Generator_UserTableName="MOTOR_CLAIM" msprop:Generator_RowEvArgName="MOTOR_CLAIMRowChangeEvent">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="CLM_NO" msprop:Generator_ColumnVarNameInTable="columnCLM_NO" msprop:Generator_ColumnPropNameInRow="CLM_NO" msprop:Generator_ColumnPropNameInTable="CLM_NOColumn" msprop:Generator_UserColumnName="CLM_NO" type="xs:string" minOccurs="0" />
+              <xs:element name="CLM_LOSS_DT" msprop:Generator_ColumnVarNameInTable="columnCLM_LOSS_DT" msprop:Generator_ColumnPropNameInRow="CLM_LOSS_DT" msprop:Generator_ColumnPropNameInTable="CLM_LOSS_DTColumn" msprop:Generator_UserColumnName="CLM_LOSS_DT" type="xs:string" minOccurs="0" />
+              <xs:element name="CLM_INTM_DT" msprop:Generator_ColumnVarNameInTable="columnCLM_INTM_DT" msprop:Generator_ColumnPropNameInRow="CLM_INTM_DT" msprop:Generator_ColumnPropNameInTable="CLM_INTM_DTColumn" msprop:Generator_UserColumnName="CLM_INTM_DT" type="xs:string" minOccurs="0" />
+              <xs:element name="CLM_REG_DT" msprop:Generator_ColumnVarNameInTable="columnCLM_REG_DT" msprop:Generator_ColumnPropNameInRow="CLM_REG_DT" msprop:Generator_ColumnPropNameInTable="CLM_REG_DTColumn" msprop:Generator_UserColumnName="CLM_REG_DT" type="xs:string" minOccurs="0" />
+              <xs:element name="CLM_LOSS_DESC" msprop:Generator_ColumnVarNameInTable="columnCLM_LOSS_DESC" msprop:Generator_ColumnPropNameInRow="CLM_LOSS_DESC" msprop:Generator_ColumnPropNameInTable="CLM_LOSS_DESCColumn" msprop:Generator_UserColumnName="CLM_LOSS_DESC" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

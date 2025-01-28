@@ -1,0 +1,96 @@
+﻿body {
+    font-family: Arial, sans-serif;
+    background-color: #f8f9fa;
+}
+
+.heads h2 {
+    text-align: center;
+    /*margin: 20px 0;*/
+    color: nav $(document).on('change', '#txtCode, #txtType', function () {
+ var code = $('#txtCode').val().trim();
+ var type = $('#txtType').val().trim();
+
+ console.log("Code: " + code);
+ console.log("Type: " + type);
+
+ if (code && type) {
+     $.ajax({
+         type: "POST",
+         url: "/Master/CodesMaster/CheckIfCodeExists",
+         data: { pCode: code, pType: type }, // Ensure this matches your server-side method's parameter names
+         dataType: "json",
+         success: function (response) {
+             console.log(response);
+             if (response.exists === true) {
+                 Swal.fire({
+                     title: "Invalid Entry!",
+                     text: "Code/Type already exists!!",
+                     icon: "warning",
+                     confirmButtonText: "OK"
+                 });
+                 $("#txtCode").val("");
+                 $("#txtType").val("");
+             } else {
+                 $("#codeExistsMessage").hide();
+                 $("#typeExistsMessage").hide();
+             }
+         },
+         error: function (xhr, status, error) {
+             console.error("Error: " + status + " " + error);
+         }
+     });
+ } else {
+     console.log("Both code and type must be filled in");
+ }y;
+    font-weight: bold;
+} label {
+    font-weight: 600;
+    color: #495057;
+} .form-control {
+    border-radius: 5px;
+    padding: 10px;
+    font-size: 15px;
+} .form-control:focus {
+        border-color: #198754;
+        box-shadow: 0 0 5px rgba(25, 135, 84, 0.5);
+    } .btn-primary, .btn-success {
+    margin: 10px;
+    font-size: 16px;
+    font-weight: 600;
+} .btn-primary {
+    background-color: navy;
+    border-color: #007bff;
+} .btn-success {
+    background-color: navy;
+    border-color: #198754;
+} .btn-primary:hover, .btn-success:hover {
+        background-color: #002244;
+        opacity: 0.9;
+    } .vehval, .fc, .lc {
+    text-align: right;
+} .text-danger {
+    font-size: 13px;
+    color: #dc3545;
+} .date-picker {
+/*    background-image: url('../Images/calendar-icon.png');
+*/    background-position: right 10px center;
+    background-repeat: no-repeat;
+    background-size: 20px;
+} .dropdown {
+    width: 100%;
+}
+    /* Mobile Adjustments */
+    @media (max-width: 768px) {
+    .btn-primary, .btn-success {
+        width: 100%;
+        margin: 5px 0;
+    }
+} .required {
+    color: red;
+    margin-left: 5px;
+    font-weight: bold;
+} .heads h2 {
+    text-align: center;
+    color: navy;
+    font-weight: bold;
+}

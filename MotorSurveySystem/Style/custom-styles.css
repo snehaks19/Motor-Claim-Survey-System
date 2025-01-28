@@ -1,0 +1,48 @@
+﻿@import url('MasterPage.css');
+.navbar.navbar-dark {
+    background-color: #001F3F !important; 
+}
+
+.navbar .navbar-brand {
+    color: #FFFFFF !important; 
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.navbar .nav-link {
+    color: #FFFFFF !important; 
+    font-size: 16px;
+    margin-right: 15px;
+    transition: color 0.3s ease;
+}
+
+    .navbar .nav-link:hover {
+        color: #FFD700 !important; 
+    }
+
+.navbar .dropdown-menu {
+    background-color: #004080 !important;
+    border: none;
+}
+
+    .navbar .dropdown-menu .dropdown-item {
+        color: #FFFFFF !important;
+        transition: background-color 0.3s ease;
+    }
+
+        .navbar .dropdown-menu .dropdown-item:hover {
+            background-color: #0056b3 !important; 
+            color: #FFFFFF !important;
+        }
+
+.btn-danger {
+    background-color: #dc3545 !important;
+    border: 1px solid transparent;
+    transition: background-color 0.3s ease;
+}
+
+    .btn-danger:hover {
+        background-color: #FFD700 !important;
+    }
+
+

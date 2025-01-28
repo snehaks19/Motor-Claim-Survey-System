@@ -1,0 +1,99 @@
+﻿/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f8f9fa;
+}
+
+/* Title Headers */
+.heads h3 {
+    text-align: center;
+    margin: 20px 0;
+    color: navy;
+    font-weight: bold;
+}
+
+/* Form Labels */
+label {
+    font-weight: 600;
+    color: #495057;
+}
+
+/* Input Fields */
+.form-control {
+    border-radius: 5px;
+    padding: 10px;
+    font-size: 15px;
+}
+
+    .form-control:focus {
+        border-color: #198754;
+        box-shadow: 0 0 5px rgba(25, 135, 84, 0.5);
+    }
+
+/* Buttons */
+.btn-primary, .btn-success {
+    margin: 10px;
+    
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.btn-primary {
+    background-color: navy;
+    border-color: #007bff;
+}
+
+.btn-success {
+    background-color: navy;
+    border-color: #198754;
+}
+
+    .btn-primary:hover, .btn-success:hover {
+        background-color: #002244;
+        opacity: 0.9;
+    }
+
+/* Field Alignment */
+.vehval, .fc, .lc {
+    text-align: right;
+}
+
+/* Error Messages */
+.text-danger {
+    font-size: 13px;
+    color: #dc3545;
+}
+
+.back {
+    float: left;
+}
+.add{
+    float:right;
+}
+
+/* Special Classes for Inputs */
+.date-picker {
+/*    background-image: url('../Images/calendar-icon.png');
+*/    background-position: right 10px center;
+    background-repeat: no-repeat;
+    background-size: 20px;
+}
+
+/* Dropdown Adjustments */
+.dropdown {
+    width: 100%;
+}
+
+/* Mobile Adjustments */
+@media (max-width: 768px) {
+    .btn-primary, .btn-success {
+        width: 100%;
+        margin: 5px 0;
+    }
+}
+
+.required {
+    color: red;
+    margin-left: 5px;
+    font-weight: bold;
+}
