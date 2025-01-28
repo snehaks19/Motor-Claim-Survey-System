@@ -8,7 +8,7 @@ namespace BusinessLayer
 {
     public class CodesMaster
     {
-        //kjfhkdfhdkfksfnkfkfkffkfksfkf
+        
         public string CmCode { get; set; }
         public string CmType { get; set; }
         public string CmDesc { get; set; }
